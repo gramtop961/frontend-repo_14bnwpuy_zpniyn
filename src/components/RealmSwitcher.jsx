@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { Sparkles, Planet, Castle, PencilLine } from 'lucide-react'
+import { Sparkles, Rocket, Castle, PencilLine } from 'lucide-react'
 
 const realms = [
   {
@@ -10,7 +10,7 @@ const realms = [
   {
     key: 'sci-fi',
     label: 'Sci‑fi',
-    icon: Planet,
+    icon: Rocket,
   },
   {
     key: 'medieval',
