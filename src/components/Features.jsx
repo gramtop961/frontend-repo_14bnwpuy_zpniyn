@@ -1,9 +1,9 @@
-import { Controller, Zap, Paintbrush, Rocket } from 'lucide-react'
+import { Gamepad2, Zap, Paintbrush, Rocket } from 'lucide-react'
 
 export default function Features({ accent, cardStyle }) {
   const items = [
     {
-      icon: Controller,
+      icon: Gamepad2,
       title: 'Quest-Based Projects',
       text: 'Turn briefs into quests with progress, rewards, and boss fights at launch time.',
     },
